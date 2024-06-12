@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export",
+    "build:netlify": "next build && next export"
   },
   "dependencies": {
     "gsap": "3.8.0",
