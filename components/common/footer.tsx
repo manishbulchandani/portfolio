@@ -24,7 +24,7 @@ const Footer = () => {
       </h1>
       <div className="flex mt-8">{renderSocialIcons()}</div>
       <div className="flex mt-8">
-        <Button
+        {/* <Button
           classes="mr-3"
           type={ButtonTypes.OUTLINE}
           name="Resume"
@@ -33,9 +33,9 @@ const Footer = () => {
             rel: "noreferrer",
           }}
           href="/Manish_Resume.pdf"
-        ></Button>
+        ></Button> */}
         <Button
-          classes="ml-3"
+          // classes="ml-3"
           type={ButtonTypes.WHITE}
           name="Let's Talk"
           href={"mailto:manishbulchandani4@gmail.com"}

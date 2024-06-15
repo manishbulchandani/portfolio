@@ -85,7 +85,7 @@ const HeroSection = React.memo(() => {
       </p>
       <div className="flex seq mb-5">{renderSocialLinks()}</div>
       <div className="flex seq">
-        <Button
+        {/* <Button
           classes="mr-3"
           type={ButtonTypes.OUTLINE}
           name="Resume"
@@ -94,9 +94,9 @@ const HeroSection = React.memo(() => {
             rel: "noreferrer",
           }}
           href="/Manish_Resume.pdf"
-        ></Button>
+        ></Button> */}
         <Button
-          classes="ml-3"
+          // classes="ml-3"
           type={ButtonTypes.PRIMARY}
           name="Let's Talk"
           href={"mailto:manishbulchandani4@gmail.com"}
